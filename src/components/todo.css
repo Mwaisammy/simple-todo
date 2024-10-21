@@ -1,0 +1,48 @@
+.todo {
+    margin-top: 20px;
+    padding: 15px;
+    background: #fff;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+}
+
+.todos-btn {
+    display: flex;
+    gap: 20px;
+}
+
+.edit-btn {
+    padding: 8px 15px;
+    background-color: rgb(40, 189, 40);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.edit-btn:hover {
+    background-color: rgb(15, 129, 15);
+
+    cursor: pointer;
+}
+
+.del-btn{
+    background-color: rgb(211, 44, 44);
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+
+
+}
+
+.del-btn:hover {
+    background-color: rgb(203, 29, 29);
+    cursor: pointer;
+}
+
+
+
+
